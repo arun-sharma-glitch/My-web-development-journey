@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+
+    <!-- warning comes in cosole  -->
+    <link rel="icon" href="data:,">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="input-btn">
+            <input id="input" type="text" placeholder="search your word: ">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="meaning-speaker flex-space-between">
+            <h2 id="word"></h2>
+            <i class="fa-solid fa-volume-high grey" id="listen"></i>
+        </div>
+
+        <div class="synanyms">
+            <p class="grey italic" id="phonetic"></p>
+        </div>
+
+        <div class="sentence">
+            <p id="meaning"></p>
+        </div>
+
+        <div class="actual-meaning">
+            <div class="bar"></div>
+            <p class="italic" id="example"></p>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- lucid
+adjective / lu:sid
+expression clearly; easy to understand.
+a lucid account -->
